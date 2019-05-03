@@ -1,7 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
+import { TattooController, UserController } from './components';
 import ROUTES from './constants/server-uri';
-import { UserController } from './user';
 
 const app = express();
 
@@ -12,6 +12,7 @@ mongoose.connect('mongodb://localhost/ayahuasca_ink', {
 });
 
 app.use(ROUTES.users, UserController);
+app.use(ROUTES.tattoos, TattooController);
 
 app.listen(port, () => console.log(`Server is listening on port ${port}`));
 

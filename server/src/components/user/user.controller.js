@@ -29,7 +29,7 @@ router.post('/', (req, res) => {
       if (err) {
         return res.status(500).send('Could not add user');
       }
-      return res.status(200).send(user);
+      return res.status(201).send(user);
     }
   );
 });

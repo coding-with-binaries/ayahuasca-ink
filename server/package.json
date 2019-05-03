@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "ayahuasca-ink-server",
   "version": "1.0.0",
   "main": "src/server.js",
   "license": "GPL-3.0",
