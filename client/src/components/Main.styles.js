@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const InkContainer = styled.div`
   height: 100vh;
   width: 100%;
-  background: #1f1f1f;
+  background: #191a1a;
   display: grid;
   grid-template-rows: 80px auto;
 `;

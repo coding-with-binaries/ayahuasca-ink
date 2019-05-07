@@ -1,5 +1,6 @@
 import React from 'react';
 import { InkContainer, InkHeader, InkTitle } from './Main.styles';
+import Mapbox from './mapbox/Mapbox';
 
 const Main = () => {
   return (
@@ -7,6 +8,7 @@ const Main = () => {
       <InkHeader>
         <InkTitle>ayahuasca.ink</InkTitle>
       </InkHeader>
+      <Mapbox />
     </InkContainer>
   );
 };
